@@ -1,325 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MUIDS Press | Home</title>
-    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
+<html data-bs-theme="light" lang="en">
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maitree:wght@300;500&family=Thasadith&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Home - Brand</title>
+</head>
 
-    <!-- linking to onload_head.js -->
-    <script src="js/onload_head.js"></script>
-    <script src="js/sticky_head.js"></script>
-
-    <!-- linking to sticky header -->
-    <link rel="stylesheet" href="css/stick_header.css" />
-
-    <body onload="onload_head()" onscroll="check_sticky()">
-      <!-- linking to the main body -->
-      <link rel="stylesheet" href="css/main.css" />
-
-      <header>
-        <div class="navbar">
-          <img src="imgs/logo.png" id="logo_nav" />
-          <div id="name"><p>MUIDS Journalism Club</p></div>
-          <nav>
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="regulations.html">REGULATIONS</a></li>
-              <li><a href="members.html">MEMBERS</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-            </ul>
-            <button onclick="location.href = 'discover.html'">DISCOVER</button>
-
-            <!-- hamburger menu -->
-          </nav>
-
-          <!-- menu script -->
-          <script src="js/menu.js"></script>
-          <button id="menu" onclick="menu_onclick()">
-            <img src="imgs/menu.png" id="menu_img" />
-          </button>
+<body>
+    <nav class="navbar navbar-expand bg-light navigation-clean navbar-light">
+        <div class="container"><a class="navbar-brand" href="#">Boss Capstone</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"></button>
+            <div id="navcol-1" class="collapse navbar-collapse"><a class="btn btn-primary ms-auto" role="button" href="#">Get Started!</a></div>
         </div>
-
-        <!-- linking to navbar -->
-        <link rel="stylesheet" href="css/header.css" />
-        <link rel="stylesheet" href="css/_menu.css" />
-      </header>
-
-      <!-- sidebar -->
-      <div class="sidebar">
-        <div class="side_con">
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="regulations.html">REGULATIONS</a></li>
-            <li><a href="members.html">MEMBERS</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="discover.html">DISCOVER</a></li>
-          </ul>
+    </nav>
+    <header class="text-center text-white masthead" style="background: url('Student Learning Pics.jpg')no-repeat center center;background-size: cover;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto position-relative">
+                    <h1 class="mb-5">A website contributing to the help for student on studying Mathematics</h1>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
+                    <form>
+                        <div class="row">
+                            <div class="col"><button class="btn btn-primary btn-lg" type="submit" style="padding-left: 250px;padding-right: 250px;" onclick="window.location.href = &#39;FirstPage.html&#39;;">Get Started!</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- main article -->
-      <div class="roll1">
-        <img src="imgs/roll1/pic1.jpg" id="picture_roll" />
-      </div>
-
-      <!-- linking -->
-      <div class="text1">
-        <div id="title1">Access to knowledge</div>
-        <div id="subtitle1">
-          <a href="about.html">Learn more ></a>
+    </header>
+    <section class="text-center bg-light features-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-book-open m-auto text-primary"></i></div>
+                        <h3>Exam Preparation</h3>
+                        <p class="lead mb-0">Exam are pretty tough sometime, getting prepared to it would make it better!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="typcn typcn-arrow-repeat m-auto text-primary"></i></div>
+                        <h3>Reassuring the content</h3>
+                        <p class="lead mb-0">There were many math formulas in our universe, sometime we forget them. This website will help you understand the formulas and when to use it!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fa fa-star m-auto text-primary"></i></div>
+                        <h3>Better Understanding</h3>
+                        <p class="lead mb-0">Learning math might be easy, but understanding it is out of the question. We can help you understand the content on where you were learning.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- linking to main article -->
-      <script src="js/camera_roll.js"></script>
-      <link rel="stylesheet" href="css/picroll.css" />
-      <link rel="stylesheet" href="css/_picroll.css" />
-
-      <!-- buttons scripts -->
-      <script src="js/camera_roll.js"></script>
-
-      <!-- buttons -->
-      <div class="roll_buttons">
-        <button id="arr-left">
-          <img src="imgs/arr-left.svg" onclick="roll_left(this)" />
-        </button>
-        <button id="arr-right">
-          <img src="imgs/arr-right.svg" onclick="roll_right(this)" />
-        </button>
-      </div>
-
-      <!-- linking to buttons -->
-      <link rel="stylesheet" href="css/buttons.css" />
-
-      <!-- introduction -->
-      <div class="intro">
-        <div class="art_title">Introduction</div>
-        <p>
-          (We haven't been registered yet so not affiliated by any means) MUIDS
-          Journalism Club began in 2023 as a club registered under the Mahidol
-          University International Demonstration School. Today, we are still
-          trying to improve our system and provide free access to education and
-          journalism everywhere.
-        </p>
-      </div>
-
-      <!-- linking to intro area-->
-      <link rel="stylesheet" href="css/intro.css" />
-
-      <!-- news -->
-      <div class="news">
-        <div id="news_main">
-          <p>News & Updates <a href="discover.html"> > </a></p>
+    </section>
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url('Exam pics.jpg');"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>We covers Everything from grade 10 to 11</h2>
+                    <p class="lead mb-0">Math is a subject that student doesn&#39;t like, simply because it hard to understand and the exam are out of the question. It&#39;s much harder!</p>
+                </div>
+            </div>
         </div>
-        <div class="flexboxes">
-          <div class="box1">
-            <div class="imgbox">
-              <img src="imgs/roll1/pic2.jpg" />
+    </section>
+    <section class="text-center text-white call-to-action" style="background: url('Sea.jpg') no-repeat center center;background-size: cover;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto position-relative">
+                    <h2 class="mb-4">Ready to get started? Click Here!</h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
+                    <form>
+                        <div class="row">
+                            <div class="col"><button class="btn btn-primary btn-lg" type="submit" style="padding-left: 250px;padding-right: 250px;">Get Started!</button></div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div>
-              <div class="box_title"><a>Title</a></div>
-              <div class="box_content">
-                <p>Lorem ipsum dolor sit amet. Donec fermentum congue. Suspendisse
-                  in turpis vitae erat sodales rutrum ut sed massa. Mauris in
-                  aliquet massa. Vivamus maximus convallis leo in finibus. Mauris
-                  vitae finibus quam. Fusce imperdiet mi ac nibh dictum
-                  tincidunt</p>
-                <br />
-                <a> Learn more </a>
-              </div>
-            </div>
-          </div>
-          <div class="box2">
-            <div class="imgbox">
-              <img src="imgs/roll1/pic2.jpg" />
-            </div>
-            <div>
-              <div class="box_title"><a>Title</a></div>
-              <div class="box_content">
-                <p>Lorem ipsum dolor sit amet. Donec fermentum congue. Suspendisse
-                  in turpis vitae erat sodales rutrum ut sed massa. Mauris in
-                  aliquet massa. Vivamus maximus convallis leo in finibus. Mauris
-                  vitae finibus quam. Fusce imperdiet mi ac nibh dictum
-                  tincidunt</p>
-                <br />
-                <a> Learn more </a>
-              </div>
-            </div>
-          </div>
-          <div class="box3">
-            <div class="imgbox">
-              <img src="imgs/roll1/pic2.jpg" />
-            </div>
-            <div>
-              <div class="box_title"><a>Title</a></div>
-              <div class="box_content">
-                <p>Lorem ipsum dolor sit amet. Donec fermentum congue. Suspendisse
-                in turpis vitae erat sodales rutrum ut sed massa. Mauris in
-                aliquet massa. Vivamus maximus convallis leo in finibus. Mauris
-                vitae finibus quam. Fusce imperdiet mi ac nibh dictum
-                tincidunt</p>
-                <br />
-                <a> Learn more </a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-      <!-- link to news boxes -->
-      <link rel="stylesheet" href="css/news_boxes.css" />
-      <link rel="stylesheet" href="css/_news_boxes.css" />
-
-      <!-- meet our team -->
-      <div class="meet_title">
-        <p>Meet Our Team</p>
-      </div>
-      <div class="meet">
-        <div class="meet_content">
-          <p>
-            Our team is composed of individuals with interest in the field of
-            journalism. We strive to not only provide legitimate and informative
-            articles but also to provide educational materials and the promotion
-            of research works conducted by MUIDS students.
-            <br /><br />
-            As our motto stated, we stand firm in the meaning of intelligence,
-            integrity and innovative. MUIDS Press boundaries are not only in the
-            school area but also outside in the real world where we can explore
-            and aquire information regarding the well-being of our society.
-          </p>
-          <img src="imgs/roll1/pic3.png" />
+    </section>
+    <footer class="bg-light footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start my-auto h-100">
+                    <p class="text-muted small mb-4 mb-lg-0">© By Pongsakorn Sanwattana-arporn 6561260</p>
+                </div>
+            </div>
         </div>
-      </div>
+    </footer>
+</body>
 
-      <!-- linking to meet our team -->
-      <link rel="stylesheet" href="css/meet_our_team.css" />
-      <link rel="stylesheet" href="css/_meet_our_team.css" />
-
-      <!-- our mission -->
-      <div class="our_mission_title">
-        <p>Our mission<a href="about.html"> > </a></p>
-      </div>
-
-      <div class="our_mission">
-        <div class="our_mission_timeline">
-          <div class="line"></div>
-          <div class="cir_line">
-            <div id="cir1"></div>
-            <div id="cir2"></div>
-            <div id="cir3"></div>
-            <div id="cir4"></div>
-            <div id="cir5"></div>
-            <div id="cir6"></div>
-            <div id="cir7"></div>
-          </div>
-          <div class="info_line">
-            <div id="cir1_line">
-              <div class="titles_" id="cir1_ti"><p>#1</p></div>
-              <div class="titles_" id="cir2_ti"><p>#2</p></div>
-              <div class="titles_" id="cir3_ti"><p>#3</p></div>
-              <div class="titles_" id="cir4_ti"><p>#4</p></div>
-              <div class="titles_" id="cir5_ti"><p>#5</p></div>
-              <div class="titles_" id="cir6_ti"><p>#6</p></div>
-              <div class="titles_" id="cir7_ti"><p>#7</p></div>
-              <div class="content_" id="cir1_co"><p>To promote academics works conducted by MUIDS students.</p></div>
-              <div class="content_" id="cir2_co"><p>Providing educational materials written by students for students.</p></div>
-              <div class="content_" id="cir3_co"><p>Promoting and exploring the field of journalism.</p></div>
-              <div class="content_" id="cir4_co"><p>Encouraging students to demonstrate their writing ability.</p></div>
-              <div class="content_" id="cir5_co"><p>Supplying students with informative articles.</p></div>
-              <div class="content_" id="cir6_co"><p>Brining people to a understanding together as an community.</p></div>
-              <div class="content_" id="cir7_co"><p>Offering students valuable and rewarding extra curriculars activities.</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- linking to our mission -->
-      <link rel="stylesheet" href="css/our_mission.css" />
-      <link rel="stylesheet" href="css/_our_mission.css" />
-
-      <!-- apply section -->
-      <div class="apply">
-        <img src="imgs/EndingImage.png" />
-        <div class="content_end">
-          <p>Intelligence, Integrity, Innovative.</p>
-          <button type="button" onclick="applyform()">Apply</button>
-        </div>
-      </div>
-
-      <script>
-        function applyform() {
-          window.open('https://forms.gle/UNagAentut1c2mpdA')
-        }
-      </script>
-
-      <!-- linking to apply section -->
-      <link rel="stylesheet" href="css/apply.css" />
-      <link rel="stylesheet" href="css/_apply.css" />
-
-      <!-- footer -->
-      <footer>
-        <div class="end_strip"></div>
-        <div class="footer">
-          <div class="left">
-            <ul id="bottom_inline_list">
-              <li><button><img src="imgs/gmail.svg"></button></li>
-              <li><button><img src="imgs/instagram.svg"></button></li>
-            </ul>
-            <div class="bottom_list">
-              <ul>
-                <li><a>Home</a></li>
-                <li><a>Regulations</a></li>
-                <li><a>Members</a></li>
-                <li><a>About</a></li>
-              </ul>
-            </div>
-            <div class="basic_info">
-              <p>
-                MUIDS Journalism Club <br />
-                Mahidol University International Demonstration School <br />
-                Nakhon Pathom, Thailand
-              </p>
-            </div>
-            <div class="copyright">
-              <p>
-                © 2023 MUIDS Journalism Club
-              </p>
-            </div>
-          </div>
-          <div class="mid">
-            <div class="end_logo">
-                <img src="imgs/logo.png">
-            </div>
-          </div>
-          <div class="right">
-            <div id="affiliation">
-              Affiliation
-            </div>
-            <div id="muids_address">
-              Mahidol University International Demonstration School <br />
-              +66 (0) 2-408-8555 Mahidol University, 999 Phutthamonthon Sai 4 Rd, Salaya, Phutthamonthon District, Nakhon Pathom 73170
-            </div>
-            <div id="bottom_button_holder">
-              <button>
-                <img src="imgs/muids_logo.png" id="muids_logo_bottom">
-              </button>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <!-- linking to footer -->
-      <link rel="stylesheet" href="css/footer.css" />
-      <link rel="stylesheet" href="css/_footer.css"/>
-    </body>
-  </head>
 </html>
